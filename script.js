@@ -6,19 +6,49 @@ const optionsContainer = document.getElementById('options');
 const earringImg = new Image();
 
 const earringLinks = [
+  const earringOptions = [
   {
     name: "Earring 1",
-    url: "https://drive.google.com/uc?id=1AbCDeFGHiJKLmn1234"
+    url: "https://drive.google.com/uc?export=view&id=1PAldz_nDfCWYZgHGiaoUd6u9P0qVfKzu"
   },
   {
     name: "Earring 2",
-    url: "https://drive.google.com/uc?id=2ZYXWVUTSRQPonm5678"
+    url: "https://drive.google.com/uc?export=view&id=12f5bGnRwDiUhzTlSxRu7D60wiZ3aga-O"
   },
   {
     name: "Earring 3",
-    url: "https://drive.google.com/uc?id=3LMNOPQRSTuvWxyZ9012"
+    url: "https://drive.google.com/uc?export=view&id=15vsKBPpmvRzdf9ppB_BIJOb3r9B83Fpk"
+  },
+  {
+    name: "Earring 4",
+    url: "https://drive.google.com/uc?export=view&id=1B_phfMxgGdGFbmddYqY_KWgs6_AeoGk5"
+  },
+  {
+    name: "Earring 5",
+    url: "https://drive.google.com/uc?export=view&id=1E28IoaU9aIKXi2F53cfa35k-vqOFZ6zw"
+  },
+  {
+    name: "Earring 6",
+    url: "https://drive.google.com/uc?export=view&id=1FfmkYLiMWYrOkVttXTT_YZzZkWaE2LU5"
+  },
+  {
+    name: "Earring 7",
+    url: "https://drive.google.com/uc?export=view&id=1WDAGPHZsQhMpfORPhdTIrpNcpCYvrEIw"
+  },
+  {
+    name: "Earring 8",
+    url: "https://drive.google.com/uc?export=view&id=1hLrURynqdVyFsJFm4VaRTlVm7qEUnPau"
+  },
+  {
+    name: "Earring 9",
+    url: "https://drive.google.com/uc?export=view&id=1iCZQwbQIryKgGFLJb-rKzfxLaJ1GQC1D"
+  },
+  {
+    name: "Earring 10",
+    url: "https://drive.google.com/uc?export=view&id=1qdBGOukutdShe1UIQYtSGU7-l_0RmXry"
   }
 ];
+
 
 // Dynamically render buttons
 earringLinks.forEach(({ name, url }) => {
